@@ -8,9 +8,42 @@
     ::placeholder { 
       color: white;
     }
+      ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #8B0000
+  }
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    color: white;
+    text align; center;
+    padding: 14px 16px;
+  }
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  .active {
+    background-color: #4CAF50;
+  }
     </style>
   </head>
   <body>
+  <header>
+  <h1> Scholarship Project </h1>
+    <nav>
+      <ul class = "nav">
+        <li><a href="index.html" >Home</a></li>
+        <li><a href="studentLogin.html" >Student Login</a></li>
+        <li><a href="#" >Admin Login</a></li>
+        <li><a href="#" >Posting</a></li>
+  </ul>
+  </nav>
+  </header>
 <div class="userbox">
   <h1>Student Login</h1>
   <div class="passbox">
