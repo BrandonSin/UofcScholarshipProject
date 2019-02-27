@@ -4,7 +4,7 @@ body{
   padding: 0;
   font-family: sans-serif;
   background: url(university.jpg) no-repeat;
-  background-size: cover;
+  background-size: auto;
 }
 .userbox{
   width: 280px;
