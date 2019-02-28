@@ -4,3 +4,10 @@ body{
   background: url(TFDL.jpg) no-repeat;
   background-size: cover;
 }
+.textbox {
+  background-color: grey;
+  width: 300px;
+  border: 25px solid blue;
+  padding: 25px;
+  margin: 25px;
+}
