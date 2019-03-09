@@ -17,15 +17,32 @@
   <nav>
     <ul class = "nav">
       <li><a href="index.html" >Home</a></li>
-      <li><a href="studentLogin.html" >Student Login</a></li>
-      <li><a href="adminLogin.html" >Admin Login</a></li>
-      <li><a href="posting.html" >Posting</a></li>
+      <li><a href="posting.html" >Scholarships</a></li>
     </ul>
   </nav>
 
-   <div class = "textbox">
-     <h3>Welcome</h3>
-     <p>This is a project for team 8 in SENG 300. Our project is to make a website that can address the problems in our topic.</p>
+
+  <div class="userbox">
+    <h1>Login</h1>
+    <div class="passbox">
+      <i class="fas fa-user"></i>
+      <input type="text" placeholder="Username" id ="usernameID">
+    </div>
+
+    <div class="passbox">
+      <i class="fas fa-lock"></i>
+      <input type="password" placeholder="Password" id ="passwordID">
+    </div>
+
+    <input type="button" class="btn" value="Sign in" onclick="relocate_home()">
+
+    <script>
+      function relocate_home(){
+        location.href = document.getElementById('usernameID').value + "Login.html";
+      }
+    </script>
+
+
   </div>
    
   </body>
