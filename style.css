@@ -1,5 +1,11 @@
 @import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
 
+.grid-container{
+  width: 90%;
+  overflow: auto;  
+  padding: 10px;
+}
+
 .userbox{
   width: 280px;
   position: absolute;
@@ -186,5 +192,12 @@ body{
 
 /*===================SELECTION (ADD POSTING) ==========================================*/
 .selection {
-  
+  width: 500px;
+  position: absolute;
+  background-color: #b6c3d8;
+  border-radius: 10px;
+  border-bottom: 2px solid black;
+  padding-top: 100px;
+  padding-left: 100px;
+  padding: 50px;
 }

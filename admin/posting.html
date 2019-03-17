@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Postings - University of Calgary Scholarships</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+  </head>
+
+  <body style="background: url(../images/TFDL.jpg) no-repeat; background-size: 100%;">
+
+<!------------TOP BAR OF EVERY PAGE ----------------------------------->
+  <div id="top-bar">
+    <h1>Scholarship Project</h1>
+  </div>
+  <br>
+  <br>
+  <br>
+   <nav>
+     <ul class = "nav">
+        <li><a href="../index.html" >Home</a></li>
+        <li><a href="addPosting.html" >Add Scholarships</a></li>
+        <li><a href="posting.html" >View Scholarships</a></li>
+        <li><a href="editPosting.html" >Edit Scholarships</a></li>
+        <li><a href="review.html" >Review Applicants</a></li>
+     </ul>
+   </nav>
+
+
+  <p><h1 style = "color: #bc1a1a;">Scholarships</h1></p>
+
+<!---SCHOLARSHIPS SHOWN AS TEXT FOR EACH BUTTON--------------------------------------------->
+  <button class="collapsible">RedField Medical Bay Research</button>
+  <div class="content">
+    <h3>Scholarship Sponsors</h3>
+    <p>Individuals: Jaydon Fernandez </p>
+    <p>Universities: University of Calgary</p>
+    <h3 id="scholarshipdetails"> Scholarship Details</h3>
+    <p>Deadline: June 21, 2065</p>
+    <p>Amount: $2.00</p>
+    <p>Student Requirements: None</p></p>
+    <button type="button" onclick="alert('')">Apply</button>
+  </div>
+
+  <button class="collapsible">Jaydon Fernandez Computer Science Boys Research Team</button>
+  <div class="content">
+    <h3>Scholarship Sponsors</h3>
+    <p>Individuals: Jaydon Fernandez </p>
+    <p>Universities: University of Calgary</p>
+    <h3 id="scholarshipdetails"> Scholarship Details</h3>
+    <p>Deadline: June 21, 2065</p>
+    <p>Amount: $2.00</p>
+    <p>Student Requirements: None</p></p>
+    <button type="button" onclick="alert('')">Apply</button>
+  </div>
+
+  <button class="collapsible">Outstanding Procrastinators</button>
+  <div class="content">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+
+  <button class="collapsible">Travis Foundation</button>
+  <div class="content">
+    <p>z z  z z z</p>
+  </div>
+  
+  <button class="collapsible">Outstanding Skippers</button>
+  <div class="content">
+    <p> z z z z  </p>
+  </div>
+</body>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+</body>
+</html>
